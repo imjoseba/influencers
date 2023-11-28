@@ -509,7 +509,7 @@ with st.expander("**6. MEJORAS A FUTURO**"):
                Este equipo es consciente de que la aplicación tiene un gran potencial de mejora. Como puntos a mejorar, destacamos los siguientes:
                 - **Aumentar el conjunto de datos**: actualmente, el conjunto de datos utilizado para el análisis es de 200 usuarios. Para mejorar la precisión de los resultados, se recomienda aumentar el conjunto de datos.
                 - **Añadir otras métricas como**: el número de comentarios, el número de seguidos, la frecuencia de publicación, el precio por post, en otros.
-                - **Poder comparar el perfil de un usuario con el top 200**: actualmente, la aplicación solo permite predecir la puntuación de influencia de un usuario. Sería interesante poder comparar el perfil de un usuario con el top 200 para poder negociar el caché en base a sus métricas.
+                - **Utilizable por cualquier usuario**: actualmente, la aplicación es precisa únicamente para los usuarios pertenecientes al top 200.
                 - **Recomendaciones personalizadas**: actualmente, la aplicación ofrece recomendaciones generales para mejorar el perfil de Instagram. 
                 - **Añadir un apartado de contacto para que los usuarios puedan ponerse en contacto con el equipo de desarrollo.**
                 - **Así mismo, esta aplicación podría ser utilizada por marcas para encontrar influencers que se ajusten a sus necesidades.**
