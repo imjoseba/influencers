@@ -1,0 +1,9 @@
+streamlit
+pandas
+pycaret
+matplotlib
+pydeck
+numpy
+seaborn
+plotly
+geopy
