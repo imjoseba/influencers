@@ -347,7 +347,7 @@ with st.expander("**3. TEST ESTADÍSTICO**"):
 
     st.write("Tras realizar un test de Mann-Whitney, el p-valor obtenido (1.581540771327198e-08) indica que **rechazamos la hipótesis nula**, por lo que hay una diferencia significativa entre el 10% de usuarios con más likes y el total de seguidores")
 
-    st.write("**¿Tienen más interacciones que están en el 10% con más posts?**")
+    st.write("**¿Tienen más interacciones los usuarios que están en el 10% con más posts?**")
       # Creación del gráfico de dispersión con Plotly Express
     fig = px.scatter(
         df3, x='Posts', y='Total_interacciones',
