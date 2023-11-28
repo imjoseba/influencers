@@ -252,7 +252,7 @@ with st.expander("**2. ANÁLISIS EXPLORATORIO DE DATOS (EDA)**"):
     st.plotly_chart(fig)
    ###################
 
-    st.subheader('¿Outliers en las diferentes variable?')
+    st.subheader('¿Outliers en las diferentes variables?')
     st.image('detalles_outliers.png')
     st.write("Tras observar de cerca, concluimos que por la naturaleza de los mismos no se pueden considerar outliers a reparar.")
     st.subheader('Histograma de distiribución de las distintas variables')
