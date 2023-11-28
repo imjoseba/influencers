@@ -251,10 +251,8 @@ with st.expander("**2. ANÁLISIS EXPLORATORIO DE DATOS (EDA)**"):
     # Display the figure in Streamlit
     st.plotly_chart(fig)
    ###################
-    st.subheader('Gráfico de outliers de las variables')
-    st.write("""Observamos la distribución y comportamiento de los datos""")
-    st.image('outliers.png')
-    st.subheader('Gráfico de detalles outliers de cada variable')
+
+    st.subheader('¿Outliers en las diferentes variable?')
     st.image('detalles_outliers.png')
     st.write("Tras observar de cerca, concluimos que por la naturaleza de los mismos no se pueden considerar outliers a reparar.")
     st.subheader('Histograma de distiribución de las distintas variables')
