@@ -42,6 +42,7 @@ tasa_interaccion_promedio = df3['Tasa_interacción_60d'].mean()
 # Crear tres columnas
 col1, col2, col3 = st.columns(3)
 blue_light_color = "#2f9cb3"
+
 with col1:
     st.markdown('<p class="big-font"> Suma de Seguidores del top 200</p>', unsafe_allow_html=True)
     st.markdown(f'<h1 style="color:{blue_light_color};">{total_seguidores:,}</h1>', unsafe_allow_html=True)
