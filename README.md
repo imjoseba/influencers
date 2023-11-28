@@ -21,4 +21,24 @@ Creamos una aplicación interactiva utilizando Streamlit, proporcionando una int
 ## Recomendaciones Personalizadas:
 Derivamos recomendaciones prácticas basadas en hallazgos estadísticos y el peso que tienen las diferentes variables sobre la puntuación de influencer según nuestro modelo de machine learning. Además de recomendaciones como la calidad del contenido, el uso estratégico de hashtags y la autenticidad en la interacción con la audiencia.
 
+## Guía de los arhivos: 
+1_primer-tratamiento: notebook donde cargamos dataV1.csv.  
+Limpieza de columnas y filas.  
+Traducción de inglés a castellano.  
+Completar países faltantes, añadir idioma principal de la cuenta.  
+2_proyecto: notebook donde se realiza el proyecto.  
+Limpieza y visualización de datos.  
+Tratamientos de datos.  
+Análisis Exploratorio de Datos (EDA).  
+Análisis de Datos Confirmatorio (CDA).  
+Machine Learning.  
 
+dataV1.csv: csv original generado con webscraping.  
+dataV2.csv: generado al final de 1_primer-tratamiento.  
+dataV3.csv: csv con datos transformados y con columna ‘Total_interacciones’.  
+dataV4.csv: csv con datos para subir a Azure y entrenar el modelo.  
+RF_model.pkl: entrenamiento del modelo usando Random Forest Regressor  
+
+punt.py: app streamlit únicamente con la predicción de la puntuación.  
+main.py: web streamlit con todo!  
+Las fotos son para esta parte.  
