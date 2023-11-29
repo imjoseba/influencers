@@ -386,7 +386,7 @@ with st.expander("**4. APP**"):
                 'Brasil', 'España', 'Holanda', 'Francia', 'Tailandia', 'Colombia',
                 'Reino Unido', 'Corea del Sur', 'Italia', 'Nueva Zelanda',
                 'Uruguay', 'Indonesia', 'Turquía', 'Suecia', 'Egipto', 'Australia',
-                'Puerto Rico', 'Suiza', 'Costa de Marfil', 'Anguilla', 'Alemania',
+                'Puerto Rico', 'Suiza', 'Anguilla', 'Alemania',
                 'China', 'Mexico', 'Islas Vírgenes Británicas']
     país = st.selectbox("País", país_options)
 
