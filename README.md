@@ -6,6 +6,8 @@ Este proyecto integral se enfocó en la recopilación y análisis de datos de in
 
 Los aspectos destacados incluyen la recopilación detallada de datos de influencers, análisis exploratorio y confirmatorio, y la creación de un modelo predictivo utilizando Random Forest Regressor. Además, se ha desarrollado una aplicación interactiva con Streamlit para visualizar resultados y que ha derivado en recomendaciones prácticas para mejorar la presencia y la interacción en las redes sociales. 
 
+Haz click [aquí](https://influencers.streamlit.app) para ver el proyecto!
+
 ## Recopilación de Datos:
 Se realizó un exhaustivo proceso de webscraping para recopilar datos de influencers en Instagram, abarcando información clave como seguidores, interacciones, y características del perfil.
 
