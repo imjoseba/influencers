@@ -406,7 +406,8 @@ with st.expander("**5. RECOMENDACIONES**"):
     
     st.markdown("<h1 style='color: #FF69B4;'>Recomendaciones para mejorar tu puntuación de influencer</h1>", unsafe_allow_html=True)
     
-
+    st.image('chart.png', caption='La importancia de diferentes variables del modelo.')
+    
     st.markdown("""
         **1. Seguidores**: Estrategias para aumentar la visibilidad y la participación.
 
@@ -424,8 +425,6 @@ with st.expander("**5. RECOMENDACIONES**"):
 
 
         """)
-
-    st.image('chart.png', caption='La importancia de diferentes variables del modelo.')
 
     st.sidebar.header("Acerca de esta Aplicación")
     st.sidebar.info("Esta aplicación brinda recomendaciones para mejorar tu perfil de Instagram y aumentar tu influencia de manera orgánica y auténtica.")
