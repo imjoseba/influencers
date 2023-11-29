@@ -529,7 +529,7 @@ with st.expander("**7. AGRADECIMIENTOS**"):
     
     col1, col2, col3 = st.columns(3)
     with col2:
-        st.markdown("""Enhorabuena a todos! :clap: y feliz analísis! :computer: :chart_with_upwards_trend:""")
+        st.markdown("""Enhorabuena a todos! :clap: y feliz análisis! :computer: :chart_with_upwards_trend:""")
 
     # ponemos mask.png en la col2
     with col2:
