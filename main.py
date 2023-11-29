@@ -52,7 +52,7 @@ with col2:
     st.markdown(f'<h1 style="color:{blue_light_color};">{media_likes:,.2f}</h1>', unsafe_allow_html=True)
 
 with col3:
-    st.markdown('<p class="big-font">Media de tasa de Interacción (últimos 60 días) del top 200</p>', unsafe_allow_html=True)
+    st.markdown('<p class="big-font">Tasa de Interacción media (últimos 60 días) del top 200</p>', unsafe_allow_html=True)
     st.markdown(f'<h1 style="color:{blue_light_color};">{tasa_interaccion_promedio:.2f}%</h1>', unsafe_allow_html=True)
 
 # Subtítulo y descripción
