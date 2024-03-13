@@ -1,9 +1,11 @@
 streamlit
-pandas
-pycaret
+pandas==2.1.4
+scipy==1.11.4
+pycaret == 3.3.0
 matplotlib
 pydeck
 numpy
 seaborn
 plotly
-geopy
+geopy==2.4.1
+scikit-learn==1.4.1.post1

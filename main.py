@@ -94,7 +94,7 @@ styled_df = df.style.set_properties(**{
 columnas_para_grafico = ['País', 'Usuario']
 
 # Load the model
-model = load_model('RF_model.pkl')
+model = load_model('RF_model')
 
 # Función para hacer la predicción
 def predict_puntuacion_influence(seguidores, media_likes, posts, tasa_interaccion_60d, media_likes_post_nuevo, total_likes, total_interacciones, país, idioma):
