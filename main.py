@@ -452,6 +452,7 @@ with st.expander("**5. RECOMENDACIONES**"):
 
 st.title("Geolocalizador de Influencers en Instagram 🌐")
 
+# Function to fetch latitude and longitude for a given country
 def get_location(country):
     geolocator = Nominatim(user_agent="streamlit_geolocator")
     location = geolocator.geocode(country)
